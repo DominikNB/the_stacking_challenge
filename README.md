@@ -1,3 +1,2 @@
-# the_stacking_game
+# the_stacking_challenge
 
-See:
