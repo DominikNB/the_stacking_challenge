@@ -23,6 +23,7 @@ def stapler(vars, *args):
 
     stack_int = stack.astype(int)
 
+    # Check for overweight
     weight_on_boxes = boxes[stack_int, 2]
     weight_on_boxes = weight_on_boxes[1:]
     weight_on_boxes = np.flip(weight_on_boxes)
@@ -40,6 +41,7 @@ def stapler(vars, *args):
     else:
         weight_tester = 0
 
+    # Check for percentage amount of red boxes
     color_tester = 1-(len(stack_int[stack_int == 1])/len(stack_int))
     if color_tester < 0.9:
         color_tester = 0
