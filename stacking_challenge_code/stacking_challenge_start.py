@@ -4,7 +4,7 @@ import stack_helpers as sh
 
 
 'Start with data'
-# box_identificator (#Blue (0), Red (1), Yellow (2), Green (3), Orange (4)),
+# box_identificator (Blue (0), Red (1), Yellow (2), Green (3), Orange (4)),
 # box_height,
 # box_weight,
 # on_stack_weight,
